@@ -8,52 +8,6 @@
 
 Whether you're setting up a database backup, a daily newsletter, or a system cleanup script, this tool ensures your schedule is exactly what you intended.
 
----
-
-## 🚀 Key Features
-
-- **Human-Readable Explanations:** Converts `0 0 * * *` into "At 12:00 AM, every day".
-- **Real-Time Validation:** Instantly identifies errors in your cron syntax.
-- **CLI Interface:** Perfect for terminal-based workflow integration.
-- **Web UI Ready:** Clean, modular logic that can be dropped into any dashboard.
-- **Zero Dependencies:** Pure JavaScript for maximum performance and portability.
-
----
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/RanaAhmar/cron-syntax-helper.git
-cd cron-syntax-helper
-```
-
-## 🛠️ Usage
-
-### Via Node.js (CLI)
-
-```bash
-node src/cron-helper.js "*/15 * * * *"
-```
-**Output:** "Every 15 minutes, every hour, every day, every month, and every day of the week."
-
-### In your JS Projects
-
-```javascript
-const CronHelper = require('./src/cron-helper');
-
-const explanation = CronHelper.explain("0 12 * * MON");
-console.log(explanation); // "At 12:00 PM, only on Monday"
-```
-
----
-
-## 🛡️ Keywords & SEO
-`cron-helper`, `cron-validator`, `schedule-explainer`, `linux-cron`, `nodejs-cron`, `automation-tools`, `stackaura`, `ahmar-hussain`, `web-development-utilities`.
-
----
-
-## 📄 License
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
@@ -72,3 +26,4 @@ If you found this tool useful, check out our other high-performance web utilitie
 - **Author:** [Ahmar Hussain](https://github.com/RanaAhmar)
 
 ---
+
